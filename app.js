@@ -92,3 +92,39 @@ function doesThisReallyWork(boolean) {
 
 doesThisReallyWork(doesThisWork);
 
+const sectionOne = document.getElementById('section-one');
+console.log(sectionOne);
+const sectionTwo = document.getElementById('section-two');
+console.log(sectionTwo);
+const sectionThree = document.querySelector('#section-three');
+console.log(sectionThree);
+const sectionFour = document.querySelector('#section-four');
+const sectionFive = document.querySelector('#section-five');
+console.log(sectionFour);
+console.log(sectionFive);
+
+sectionOne.textContent = 'Lakers';
+sectionTwo.textContent = 'Warriors';
+sectionThree.textContent = 'Celtics';
+sectionFour.textContent = 'Nets';
+sectionFive.textContent = 'Blazers';
+
+const paraOne = document.querySelector('.paragraph-one');
+console.log(paraOne);
+paraOne.textContent = 'Lebron James';
+
+const paraTwo = document.querySelector('.paragraph-two');
+console.log(paraTwo);
+paraTwo.textContent = 'Steph Curry';
+
+const paraThree = document.querySelector('.paragraph-three');
+console.log(paraThree);
+paraThree.textContent = 'Kemba Walker';
+
+const paraFour = document.querySelector('.paragraph-four');
+console.log(paraFour);
+paraFour.textContent = 'Kyrie Irving';
+
+const paraFive = document.querySelector('.paragraph-five');
+console.log(paraFive);
+paraFive.textContent = 'Damien Lillard';
