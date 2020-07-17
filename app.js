@@ -128,3 +128,60 @@ paraFour.textContent = 'Kyrie Irving';
 const paraFive = document.querySelector('.paragraph-five');
 console.log(paraFive);
 paraFive.textContent = 'Damien Lillard';
+
+const containerSix = document.createElement('div');
+containerSix.classList.add('container-six');
+console.log(containerSix);
+
+const sectionSix = document.createElement('h2');
+sectionSix.setAttribute('id', 'section-six');
+sectionSix.textContent = 'Rockets';
+console.log(sectionSix);
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+paraSix.textContent = 'James Harden';
+console.log(paraSix);
+
+const body = document.querySelector('body');
+console.log(body);
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+// create another container
+const containerSeven = document.createElement('div');
+// add class
+containerSeven.classList.add('container-seven');
+console.log(containerSeven);    
+
+// create another section
+const sectionSeven = document.createElement('h2');
+// add an id
+sectionSeven.setAttribute('id', 'section-seven');
+// add textContent
+sectionSeven.textContent = 'Bucks';
+console.log(sectionSeven);
+
+// create another paragraph
+const paraSeven = document.createElement('p');
+// add a class
+paraSeven.classList.add('paragraph-seven');
+// add textContent
+paraSeven.textContent = 'Giannis Antetokounmpo';
+console.log(paraSeven);
+
+body.appendChild(containerSeven);
+containerSeven.appendChild(sectionSeven);
+containerSeven.appendChild(paraSeven);
+
+
+
+// append the container to the body
+// append section to the container
+// append the paragraph to the container
+
+
+// PUSH TO GITHUB
+// IN THE THREAD PASTE YOUR LINK
